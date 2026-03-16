@@ -8,7 +8,7 @@ import (
 
 // A função que responde à requisição web
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello World! I'm GO app-a!!!")
+	fmt.Fprintf(w, "Hello World! I'm GO app-a!")
 }
 
 func main() {
